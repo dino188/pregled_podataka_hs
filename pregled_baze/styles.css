@@ -1,0 +1,67 @@
+body{
+
+    background:rgb(178, 207, 245)
+}
+
+.table-box{
+
+    width: 50%;
+}
+
+.container_table{
+
+    width: auto;
+    height: auto;
+    overflow: auto;
+    margin: 30px,auto,0,auto;
+    padding: 0;
+    background-color: rgb(245, 243, 243);
+}
+
+td, th{
+
+    border: 2px;
+    padding: 8px;
+    height: auto;
+    width: auto;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+}
+
+td{
+
+    height: 10px;
+    width: 30px;
+}
+
+tr:hover{background-color: rgb(255, 255, 255);}
+
+.form-box{
+
+    margin: 30px auto auto auto;
+    padding: 0;
+    width: 89rem;
+}
+
+.table-head-1{
+    
+    border-width: thick;
+    background-color: rgb(175, 175, 175);
+
+}
+
+.table-head-2{
+
+    white-space: nowrap;
+}
+
+.table-show{
+
+    padding-left: 0;
+}
+
+table{
+
+    width: 100%;
+    border-collapse:collapse;
+}
